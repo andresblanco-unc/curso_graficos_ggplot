@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src="pics/portada.png" width="100%"/>
+<img src="imagenes/flyer.png" width="100%"/>
 
 </p>
 
@@ -32,14 +32,6 @@
 
 ------------------------------------------------------------------------
 
-## Cronograma
-
-<p align="center">
-
-<img src="imagenes/flyer.png" width="100%"/>
-
-</p>
-
 ### Otros cursos orientados al uso de R
 
 En el Doctorado de Ciencias Biológicas (FCEFyN, Universidad Nacional de
@@ -63,7 +55,7 @@ modelos estadísticos en R:
 
 ## Licencia
 
-© 2024 Pablo Y. Huais & Nicolás Pastor. Bajo licencia [Creative Commons
+© 2025 Andrés Blanco. Bajo licencia [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
 License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
