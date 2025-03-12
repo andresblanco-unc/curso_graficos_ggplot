@@ -6,6 +6,7 @@
 
 ## Índice de contenidos
 
+-   **\[Presentación del curso\]** (presentacion/presentacion.html)
 -   **Día 1**
     -   [1.1 Introducción al lenguaje R](dia1/1.1_IntroR.pdf)
     -   [1.2 Primeros pasos con R y RStudio](dia1/1.2_UsandoR.html)
