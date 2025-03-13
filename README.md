@@ -8,7 +8,7 @@
 
 -   [**Presentación del curso**](presentacion/presentacion.html)
 -   [**Unidad 1. Introducción a R y RStudio**](unidad_1/unidad_1.html)
-    <iframe src="unidad_1/unidad_1.html#TOC" width="100%" height="500px"></iframe>
+    <iframe src="unidad_1/unidad_1_toc.html#TOC" width="100%" height="500px"></iframe>
 -   [**Unidad 2. Análisis y representación de datos
     numéricos**](unidad_2/unidad_2.html)
 -   [**Unidad 3. Análisis y representación de datos
