@@ -5,6 +5,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+    lang: es-ES
 ---
 
 ```{r, include=FALSE, error=TRUE}
