@@ -8,6 +8,12 @@ output:
     lang: es-ES
 ---
 
+<a id='top'></a>
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::
+
 \pagebreak
 # Unidad 1. Introducción a R y RStudio
 

@@ -308,7 +308,7 @@ Gráfico +
 
 Podemos ir separando por comas diferentes elementos que queramos modificar. Otra opción interesante es crear un objeto con todas nuestras modificaciones, que luego podemos aplicar a todos nuestros gráficos. También existen temas prediseñados que modifican varios parámetros a la vez. Estos se introducen con el comando theme_ donde las opciones son muchas, en particular a mí me gusta la opción `theme_pubr` [^1] del paquete *ggpubr*. Podemos combinar todo en un objeto, por ejemplo:
 
-[^1]: para más información del paquete *ggpubr* dirigirse a https://rpkgs.datanovia.com/ggpubr/ . Es un paquete muy interesante orientado a publicaciones usando ggplot2.
+[^1]: Para más información del paquete *ggpubr* dirigirse a https://rpkgs.datanovia.com/ggpubr/ . Es un paquete muy interesante orientado a publicaciones usando ggplot2.
 
 ```{r}
 library(ggpubr)
