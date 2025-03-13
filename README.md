@@ -4,7 +4,7 @@
 
 </p>
 
-## Índice de contenidos
+# Índice de contenidos
 
 -   [**Presentación del curso**](presentacion/presentacion.html)
 -   [**Unidad 1. Introducción a R y RStudio**](unidad_1/unidad_1.html)
@@ -17,15 +17,15 @@
 -   [**Unidad 5. Otros tipos y parámetros
     gráficos**](unidad_5/unidad_5.html)
 
-Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)
+**Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)**
 
 **Descarga todo el material del curso
 [aquí](https://github.com/andresblanco-unc/curso_graficos_ggplot/raw/refs/heads/main/bases.zip)**
 
-# Bibliografía recomendada
+## Bibliografía recomendada
 
 -   Carmona, D.; Benitez-Vieyra, S. Guía de campo de R.
-    <http://wiki.imbiv.unc.edu.ar/index.php/Gu%C3%ADa_de_campo_de_R>
+    <https://wiki.imbiv.unc.edu.ar/index.php?title=Guía_de_campo_de_R>
 
 -   Chang, W. (2018). R graphics cookbook: practical recipes for
     visualizing data. O’Reilly Media. <http://www.cookbook-r.com/>
@@ -33,7 +33,7 @@ Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)
 -   Ggplot2 Reference. <https://ggplot2.tidyverse.org/reference/>
 
 -   Morales, J. Modelos estadísticos, una versión aplicada en R.
-    <https://sites.google.com/umh.es/statistical-models>
+    <https://bookdown.org/j_morales/librostat/>
 
 -   R-Charts. Gráficos con el paquete ggplot2.
     <https://r-charts.com/es/ggplot2/>
@@ -42,7 +42,7 @@ Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)
 
 -   Wickham, H., & Grolemund, G. (2016). R for data science: import,
     tidy, transform, visualize, and model data. ” O’Reilly Media, Inc.”.
-    <https://r4ds.had.co.nz/index.html>
+    <https://r4ds.hadley.nz/>
 
 ------------------------------------------------------------------------
 
