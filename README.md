@@ -14,7 +14,7 @@
     categóricos**](unidad_3/unidad_3.html)
 -   [**Unidad 4. Estructura y estética de gráficos con
     ggplot2**](unidad_4/unidad_4.html)
--   [**\# Unidad 5. Otros tipos y parámetros
+-   [**Unidad 5. Otros tipos y parámetros
     gráficos**](unidad_5/unidad_5.html)
 
 Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)
