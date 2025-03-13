@@ -8,8 +8,6 @@ output:
     lang: es-ES
 ---
 
-<a id='top'></a>
-
 ::: {style="text-align: right;"}
 [Volver al inicio](../)
 :::
@@ -312,3 +310,8 @@ ALIM %>% select(CO2, ET, PS) %>%
 
 1. Cree a partir de la base de datos original, una que contenga únicamente los tallos y hojas del cultivar ES Mentor, y las columnas de CO~2~, ET, Organo, PS, Zn y Pb.
 2. Filtre la base creada para obtener otra que solo tenga aquellos datos con más de 3 ppm de Pb.
+
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::

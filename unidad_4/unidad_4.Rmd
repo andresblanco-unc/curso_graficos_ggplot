@@ -8,6 +8,12 @@ output:
     lang: es-ES
 ---
 
+<a id='top'></a>
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::
+
 ```{r, include=FALSE, error=TRUE}
 library(agricolae);library(tidyverse);library(car)
 library(sciplot);library(patchwork); library(gridExtra)
@@ -534,3 +540,8 @@ wrap_plots(G1 + THEME +
 ## Actividad 6
 
 Exporte los dos gráficos que realizó en las actividades 3 y 5 combinados en una sola figura de dos columnas y una fila, agregue etiquetas a cada uno, aplique colores y escalas a los ejes. Junte las leyendas en una sola.
+
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::

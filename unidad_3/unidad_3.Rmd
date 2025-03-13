@@ -8,6 +8,12 @@ output:
     lang: es-ES
 ---
 
+<a id='top'></a>
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::
+
 ```{r, include=FALSE, error=TRUE}
 library(agricolae);library(tidyverse);library(car)
 library(sciplot);library(patchwork); library(gridExtra)
@@ -310,3 +316,7 @@ ggplot(SEM_Alim, aes(ET, PS))+
 ## Actividad 5
 
 Realice un gráfico de barras y un gráfico de cajas donde demuestre los resultados de los ANOVA realizados en la actividad 4.
+
+::: {style="text-align: right;"}
+[Volver al inicio](../)
+:::

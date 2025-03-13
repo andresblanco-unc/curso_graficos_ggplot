@@ -8,6 +8,7 @@
 
 -   [**Presentación del curso**](presentacion/presentacion.html)
 -   [**Unidad 1. Introducción a R y RStudio**](unidad_1/unidad_1.html)
+    <iframe src="unidad_1/unidad_1.html#TOC" width="100%" height="500px"></iframe>
 -   [**Unidad 2. Análisis y representación de datos
     numéricos**](unidad_2/unidad_2.html)
 -   [**Unidad 3. Análisis y representación de datos
@@ -19,7 +20,8 @@
 
 Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)
 
-**Descarga todo el material del curso [aquí](bases.zip)**
+**Descarga todo el material del curso
+[aquí](https://github.com/andresblanco-unc/curso_graficos_ggplot/raw/refs/heads/main/bases.zip)**
 
 # Bibliografía recomendada
 
