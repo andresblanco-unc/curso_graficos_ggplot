@@ -40,9 +40,9 @@
 
 -   Tidyverse. <https://www.tidyverse.org/>
 
--   Wickham, H., & Grolemund, G. (2016). R for data science: import,
-    tidy, transform, visualize, and model data. ” O’Reilly Media, Inc.”.
-    <https://r4ds.hadley.nz/>
+-   Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023).
+    R for data science: import, tidy, transform, visualize, and model
+    data. ” O’Reilly Media, Inc.”. <https://r4ds.hadley.nz/>
 
 ------------------------------------------------------------------------
 
