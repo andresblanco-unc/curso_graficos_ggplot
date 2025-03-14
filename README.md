@@ -11,7 +11,7 @@
 -   [**Unidad 2. Análisis y representación de datos
     numéricos**](unidad_2/unidad_2_q.html)
 -   [**Unidad 3. Análisis y representación de datos
-    categóricos**](unidad_3/unidad_3.html)
+    categóricos**](unidad_3/unidad_3_q.html)
 -   [**Unidad 4. Estructura y estética de gráficos con
     ggplot2**](unidad_4/unidad_4.html)
 -   [**Unidad 5. Otros tipos y parámetros

@@ -7,7 +7,7 @@ format:
     css: styles.css
     toc: true
     toc-location: left
-    number-sections: true
+    #number-sections: true
     toc-title: "Contenidos"
 ---
 
