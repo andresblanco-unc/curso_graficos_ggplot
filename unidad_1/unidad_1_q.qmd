@@ -9,7 +9,6 @@ format:
     toc-location: left
     number-sections: true
     toc-title: "Contenidos"
-   # toc-expand: false  # Muestra la TOC expandida al inicio
 ---
 
 ::: {style="text-align: right;"}

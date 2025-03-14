@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   [**Presentación del curso**](presentacion/presentacion.html)
 -   [**Unidad 1. Introducción a R y RStudio**](unidad_1/unidad_1_q.html)
--   [**Unidad 2. Análisis y representación de datos numéricos**](unidad_2/unidad_2.html)
+-   [**Unidad 2. Análisis y representación de datos numéricos**](unidad_2/unidad_2_q.html)
 -   [**Unidad 3. Análisis y representación de datos categóricos**](unidad_3/unidad_3.html)
 -   [**Unidad 4. Estructura y estética de gráficos con ggplot2**](unidad_4/unidad_4.html)
 -   [**Unidad 5. Otros tipos y parámetros gráficos**](unidad_5/unidad_5.html)
