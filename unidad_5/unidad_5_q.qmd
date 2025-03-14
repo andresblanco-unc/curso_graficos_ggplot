@@ -122,7 +122,7 @@ argentina <- soja %>%
 
 En primer lugar introduciremos un nuevo geom: `geom_area`. Como su nombre lo indica, permite graficar superficies completas en base a una escala continua. En este caso usaremos como eje _x_ los años, como si fueran continuos. Así por ejemplo podemos graficar la variación de la superficie cultivada a lo largo del tiempo:
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 ggplot(argentina, aes(Year, Sup/1000000))+ # editamos la sup para no ver números tan grandes
   geom_area(fill="cornflowerblue", col="gray21") +
   scale_y_continuous(expand = c(0,0), breaks = seq(0, 25, by = 5))+
@@ -134,7 +134,7 @@ ggplot(argentina, aes(Year, Sup/1000000))+ # editamos la sup para no ver número
 
 Ahora supongamos que queremos graficar al mismo tiempo la superficie de Argentina y la global. Una opción sería dividir la variable Sup entre las regiones por _fill_.
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 ggplot(soja, aes(Year, Sup/1000000, fill=Area))+
   geom_area(col="gray21") +
   scale_y_continuous(expand = c(0,0), breaks = seq(0, 150, by = 10))+
@@ -146,7 +146,7 @@ ggplot(soja, aes(Year, Sup/1000000, fill=Area))+
 
 Si bien parece funcionar, al incluir esta opción geom_area apila los datos de una región con la otra. Por lo tanto, lo que vamos a hacer es superponer dos gráficos de área al mismo tiempo. Para ello introduciremos una nueva idea que es la de utilizar dos bases de datos diferentes en el mismo gráfico. Cuando creamos nuestro gráfico (ggplot(aes(...))) los _geom_ que introduzcamos luego "heredan" tanto la base de datos como la estructura x-y determinada por aes que acompaña a ggplot. Si nuestro nuevo _geom_ requiere una diferente, debemos expresamente introducirla. Finalmente, como la inclusión de nuevos _geom_ no incorpora una leyenda, con la función _annotate_ podemos introducir texto en algún lugar específico para clarificar qué significa cada área. También es posible introducir segmentos, flechas y otros elementos con esta función. Veamos cómo quedaría:
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 ggplot(mundo, aes(Year, Sup/1000000))+ # aes principal
   geom_area(fill="burlywood3", col="gray21") + # primer área, es la que va al fondo
   scale_y_continuous(expand = c(0,0), breaks = seq(0,120, by = 10))+
@@ -174,7 +174,7 @@ También puede resultarnos de utilidad combinar gráficos de dos tipos diferente
 
 Una vez cumplidas estas condiciones, es solo cuestión de usar nuestra creatividad para crear el mejor gráfico. Supongamos como ejemplo que queremos comparar el rendimiento de la soja en Argentina contra el promedio mundial. Podemos hacer un gráfico de columnas clasificando por región:
 
-```{r warning=FALSE, out.width= "75%", fig.align='center'}
+```{r warning=FALSE, out.width= "100%", fig.align='center'}
 soja %>% mutate(Area=fct_recode(Area,
                               "Argentina"="Argentine", # modificamos los factores al español
                               "Mundo" ="World")) %>%
@@ -190,7 +190,7 @@ ggplot(aes(Year, Yield/1000, fill=Area))+
 
 Como vemos, de esta manera nos quedan demasiadas columnas y es muy difícil tener una idea clara del patrón. En cambio vamos a colocar el rendimiento global como puntos unidos por una línea. Para ello utilizaremos las bases de datos argentina y mundo. Además vemos que las comas del eje Y aparecen como puntos, lo modificaremos al formato del español:
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 ggplot(argentina, aes(Year, Yield/1000))+ # base de datos de argentina
   geom_col(fill="cornflowerblue") +  # creamos las columnas
   scale_y_continuous(expand = c(0,0), breaks = seq(0,5, by = .5),
@@ -224,7 +224,7 @@ argentina <- argentina %>%
 
 Y luego utilizaremos el valor máximo de estar relación para graficar y que ambas variables se "observen" en una escala similar. Luego deberemos realizar una conversión de la escala a poner en el eje secundario siguiendo un patrón similar. Como vamos a usar la relación máxima entre rendimiento y producción, el valor graficado será aproximado ya que cada año dicha relación será diferente. Sin embargo, veremos que la aproximación es bastante buena y sirve de forma representativa.
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 ggplot(argentina, aes(x=Year))+ # especificamos el eje x
   geom_col(aes(y=Yield/1000),  # luego en cada geom el eje y
            fill="darkolivegreen2") +
@@ -309,7 +309,7 @@ Por ejemplo final, supongamos que queremos ver en un mismo gráfico qué porcent
 
 Quedaría de la siguiente manera:
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 soja %>%
   select(Area, Year, Sup, Production)%>%
   pivot_longer(c(`Sup`, `Production`), names_to = "variable", values_to = "value") %>%
@@ -343,7 +343,7 @@ res.pca <- PCA(ALIM[, -c(1:5)], scale.unit = TRUE)
 
 Una vez creado el objeto de resultado de nuestro PCA, vamos a realizar un gráfico de biplot con la función **fviz_pca_biplot** de *factoextra*:
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 BIPLOT <- fviz_pca_biplot(res.pca, 
                 repel = TRUE,
                 geom.ind = "point",
@@ -359,7 +359,7 @@ BIPLOT <- fviz_pca_biplot(res.pca,
 Ahora vamos a realizar algunas modificaciones estéticas, y a incluir una clasificación por color según el órgano de el que se trate. Para ello vamos a crear un objeto nuevo con los porcentajes de explicación de cada eje:
 
 
-```{r out.width= "75%", fig.align='center'}
+```{r out.width= "100%", fig.align='center'}
 VARIANCE <- round(get_eigenvalue(res.pca)[,2], 2)
 
 
