@@ -13,7 +13,7 @@
 -   [**Unidad 3. Análisis y representación de datos
     categóricos**](unidad_3/unidad_3_q.html)
 -   [**Unidad 4. Estructura y estética de gráficos con
-    ggplot2**](unidad_4/unidad_4.html)
+    ggplot2**](unidad_4/unidad_4_q.html)
 -   [**Unidad 5. Otros tipos y parámetros
     gráficos**](unidad_5/unidad_5.html)
 
