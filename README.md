@@ -21,7 +21,7 @@
 [aquí](curso_completo/curso_R_2025_q.html)**
 
 **Descarga todo el material del curso
-[aquí](https://github.com/andresblanco-unc/curso_graficos_ggplot/raw/refs/heads/main/bases.zip)**
+[aquí](https://github.com/andresblanco-unc/curso_graficos_ggplot/raw/refs/heads/main/archivos_curso_ggplot2.zip)**
 
 ## Bibliografía recomendada
 
