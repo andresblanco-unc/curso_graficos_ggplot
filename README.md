@@ -17,7 +17,8 @@
 -   [**Unidad 5. Otros tipos y parámetros
     gráficos**](unidad_5/unidad_5_q.html)
 
-**Visualiza el curso completo [aquí](curso_completo/curso_R_2025.html)**
+**Visualiza el curso completo
+[aquí](curso_completo/curso_R_2025_q.html)**
 
 **Descarga todo el material del curso
 [aquí](https://github.com/andresblanco-unc/curso_graficos_ggplot/raw/refs/heads/main/bases.zip)**
